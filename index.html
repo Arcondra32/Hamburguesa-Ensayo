@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hamburguesa AR</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff6ee;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #d84315;
+    }
+
+    button {
+      font-size: 1.2em;
+      padding: 15px 30px;
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #f4511e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🍔 ¡Mira tu Hamburguesa en AR!</h1>
+
+  <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://arcondra32.github.io/Hamburguesa-ensayo/hamburguesa.glb&mode=ar_preferred#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://arcondra32.github.io/Hamburguesa-ensayo/;end;">
+    <button>📱 Ver con cámara</button>
+  </a>
+
+</body>
+</html>
